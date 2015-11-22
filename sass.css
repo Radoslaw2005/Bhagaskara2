@@ -190,4 +190,42 @@ span {
   width: 1.0%;
 }
 
+/* --- Menu under header --- */
+.Menu {
+  border: 1px solid #ff98d9;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background: #f9f9f9;
+}
+
+p {
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  color: #676767;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 1%;
+  color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 95%;
+}
+
+p .Bhagaskara {
+  color: #676767;
+  font-size: 95%;
+}
+
+.underheaderkara span {
+  color: #9f449b;
+  letter-spacing: 1px;
+  font-size: 95%;
+}
+
 /*# sourceMappingURL=sass.css.map */
