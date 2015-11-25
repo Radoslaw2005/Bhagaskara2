@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'existencelight';
+  src: url("fonts/existence-light-webfont.eot");
+  src: url("fonts/existence-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/existence-light-webfont.woff2") format("woff2"), url("fonts/existence-light-webfont.woff") format("woff"), url("fonts/existence-light-webfont.ttf") format("truetype"), url("fonts/existence-light-webfont.svg#existencelight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'existencestencil_light';
+  src: url("fonts/existence-stencillight-webfont.eot");
+  src: url("fonts/existence-stencillight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/existence-stencillight-webfont.woff2") format("woff2"), url("fonts/existence-stencillight-webfont.woff") format("woff"), url("fonts/existence-stencillight-webfont.ttf") format("truetype"), url("fonts/existence-stencillight-webfont.svg#existencestencil_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'existenceunicase_light';
+  src: url("fonts/existence-unicaselight-webfont.eot");
+  src: url("fonts/existence-unicaselight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/existence-unicaselight-webfont.woff2") format("woff2"), url("fonts/existence-unicaselight-webfont.woff") format("woff"), url("fonts/existence-unicaselight-webfont.ttf") format("truetype"), url("fonts/existence-unicaselight-webfont.svg#existenceunicase_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -14,13 +35,13 @@
 }
 
 .grid_container {
-  width: 60%;
-  max-width: 1200px;
-  border: 100px solid black;
+  width: 90%;
+  max-width: 900px;
+  border: 1px solid red;
   margin: 0 auto;
 }
 
-.col-2 {
+.col-1 {
   width: 8.3333%;
 }
 
@@ -122,7 +143,7 @@ span {
   width: 100%;
   position: relative;
   border: 1px solid #ff98d9;
-  padding: 35%;
+  padding: 50%;
   height: 100%;
   background-size: 100% auto;
   background-image: url("Icons/Icon%20About%20.png");
@@ -156,12 +177,13 @@ span {
 }
 
 #iconArrow1 {
-  width: 10%;
+  width: 5%;
   border: 2px solid #ff820e;
-  padding: 50%;
-  height: 100%;
-  background-size: 100% auto;
-  background-image: url("Icons/Icon%20%20Arrow1.png");
+  margin-left: 5%;
+  padding: 45%;
+  height: 5%;
+  background-size: 10%;
+  background: url("Icons/Icon%20%20Arrow1.png") no-repeat center center;
 }
 
 #iconBlog {
@@ -180,14 +202,6 @@ span {
   height: 100%;
   background-size: 100% auto;
   background-image: url("Icons/Icon%20%20Contact.png");
-}
-
-.col-2 {
-  width: 8.3333%;
-}
-
-.col-1 {
-  width: 1.0%;
 }
 
 /* --- Menu under header --- */
@@ -226,6 +240,58 @@ p .Bhagaskara {
   color: #9f449b;
   letter-spacing: 1px;
   font-size: 95%;
+}
+
+.iconsLove {
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background: url("images/foto2.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.aboutUs {
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background-color: #FFFFFF;
+  background-size: cover;
+  text-align: center;
+}
+
+#iconAbUs {
+  position: absolute;
+  width: 3%;
+  border: 2px solid #ff820e;
+  margin-left: 45%;
+  font-size: 2%;
+  padding: 2%;
+  height: 1%;
+  background-size: 1%;
+  background: url("Icons/About%20Us.png") no-repeat center center;
+}
+
+.mainStudy {
+  position: relative;
+  padding-bottom: 8%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background: url("images/foto2fiolet_02.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+#iconStudy {
+  width: 15%;
+  border: 2px solid #ff820e;
+  margin-left: 5%;
+  padding: 45%;
+  height: 15%;
+  background-size: 10%;
+  background: url("Icons/About%20Us.png") no-repeat center center;
 }
 
 /*# sourceMappingURL=sass.css.map */

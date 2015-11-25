@@ -1,5 +1,5 @@
 //@import 'reset';
-//@import 'fonts';
+@import 'fonts';
 //@import 'variables';
 //@import 'mixins';
 //@import 'layout';
@@ -21,10 +21,9 @@
 
 }
 .grid_container {
-  width: 60%;
-  max-width: 1200px;
-  //box-sizing: border-box;
-  border: 100px solid black;
+  width:90%;
+  max-width: 900px;
+  border: 1px solid red;
   margin: 0 auto;
 }
 //.main_text {
@@ -37,12 +36,10 @@
 //  color: #ffffff;
 //}
 
-.col-2 {
-  width: 8.3333%;
-}
+
 $new_width: 8.3333%;
 
-@for $i from 2 through 12 {
+@for $i from 1 through 12 {
   .col-#{$i} {
     width: $new_width * $i;
   }
@@ -131,7 +128,7 @@ span {
   width: 100%;
   position: relative;
   border: 1px solid #ff98d9;
-  padding: 35%;
+  padding: 50%;
   height: 100%;
   background-size: 100%auto;
   background-image: url("Icons/Icon%20About%20.png");
@@ -170,12 +167,14 @@ span {
 }
 #iconArrow1 {
   //position: absolute;
-  width: 10%;
+  width: 5%;
   border: 2px solid #ff820e;
-  padding: 50%;
-  height: 100%;
-  background-size: 100%auto;
-  background-image: url("Icons/Icon%20%20Arrow1.png");
+  margin-left: 5%;
+
+  padding: 45%;
+  height: 5%;
+  background-size: 10%;
+  background: url("Icons/Icon%20%20Arrow1.png") no-repeat center center;
 }
 #iconBlog {
   //position: absolute;
@@ -196,15 +195,6 @@ span {
   background-size: 100%auto;
   background-image: url("Icons/Icon%20%20Contact.png");
 
-}
-.col-2 {
-  //background-size: 100% auto;
-  width: 8.3333%;
-}
-.col-1 {
-  //background-size: 100% auto;
-
-  width: 1.0%;
 }
 
 
@@ -252,4 +242,72 @@ p .Bhagaskara {
 
 }
 
+// czêœc z ikonami  pod Menu , z ikonami build with love //
+
+.iconsLove {
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background: url("images/foto2.jpg") no-repeat center center ;
+  background-size: cover;
+  text-align: center;
+
+}
+
+//sekcja about Us //
+//sekcja about Us //
+
+.aboutUs {
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background-color: #FFFFFF;
+  background-size: cover;
+  text-align: center;
+
+
+}
+#iconAbUs {
+  position: absolute;
+  width: 3%;
+  border: 2px solid #ff820e;
+  margin-left: 45%;
+  font-size: 2%;
+
+  padding: 2%;
+  height: 1%;
+  background-size: 1%;
+  background: url("Icons/About%20Us.png") no-repeat center center;
+}
+
+
+// sekcja study //
+
+
+.mainStudy {
+  position: relative;
+  padding-bottom: 8%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background: url("images/foto2fiolet_02.jpg") no-repeat center center ;
+  background-size: cover;
+  text-align: center;
+
+
+
+}
+
+#iconStudy {
+  //position: absolute;
+  width: 15%;
+  border: 2px solid #ff820e;
+  margin-left: 5%;
+
+  padding: 45%;
+  height: 15%;
+  background-size: 10%;
+  background: url("Icons/About%20Us.png") no-repeat center center;
+}
 
