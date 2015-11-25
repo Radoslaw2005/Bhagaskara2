@@ -21,10 +21,11 @@
 
 }
 .grid_container {
-  width:90%;
+  width:98%;
   max-width: 900px;
   border: 1px solid red;
   margin: 0 auto;
+  //margin-right: 10%;
 }
 //.main_text {
 //  max-width: 1260px;
@@ -81,7 +82,7 @@ h2 {
 }
 h4 {
   margin-top: 1%;
-  font-size: 150%;
+  font-size: 123%;
   font-family: Lato Hairline, sans-serif;
   color: rgb(255, 255, 255);
 
@@ -125,6 +126,7 @@ span {
 //
 //}
 #iconAbout{
+  margin-top: 105%;
   width: 100%;
   position: relative;
   border: 1px solid #ff98d9;
@@ -136,6 +138,7 @@ span {
 }
 #iconTeam {
   //position: absolute;
+  margin-top: 105%;
   width: 100%;
   border: 2px solid blue;
   padding: 50%;
@@ -167,17 +170,17 @@ span {
 }
 #iconArrow1 {
   //position: absolute;
-  width: 5%;
+  width: 10%;
   border: 2px solid #ff820e;
-  margin-left: 5%;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
 
-  padding: 45%;
-  height: 5%;
-  background-size: 10%;
-  background: url("Icons/Icon%20%20Arrow1.png") no-repeat center center;
 }
 #iconBlog {
   //position: absolute;
+  margin-top: 105%;
   width: 100%;
   border: 2px solid #1118ff;
   padding: 50%;
@@ -188,6 +191,7 @@ span {
 }
 #iconContact {
   //position: absolute;
+  margin-top: 105%;
   width: 100%;
   border: 2px solid #ff0909;
   padding: 50%;
@@ -201,12 +205,27 @@ span {
 /* --- Menu under header --- */
 
 .Menu {
-  border: 1px solid #ff98d9;
+  border: 2px solid #ff98d9;
   padding-top: 3%;
   padding-bottom: 3%;
   background: #f9f9f9;
+  //font-family: existencelight;
 
 
+
+}
+//
+
+.homemenu {
+  float: right;
+  border: 1px solid black;
+  padding-bottom: 2%;
+  padding-right: 30%;
+  padding-top: 1%;
+  font-size: 128%;
+  font-weight: bold;
+  font-family: existencelight;
+  color:#676767;
 }
  p {
     float: left;
@@ -219,18 +238,50 @@ span {
 }
 ul li {
   display: inline-block;
-  margin-left: 1%;
+  margin-left: 0%;
   color: #f9f9f9;
 }
 a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 95%;
-
 }
-p .Bhagaskara {
+
+#About {
+  color: #9f449b;
+}
+#Home {
   color: #676767;
-  font-size: 95%;
+}
+#Team {
+  color: #676767;
+}
+#Services {
+  color: #676767;
+}
+#Portfolio {
+  color: #676767;
+}
+#Blog {
+  color: #676767;
+}
+#Contact {
+  color: #676767;
+}
+
+
+
+
+
+
+.Bhagaskara {
+  color: #676767;
+  font-size: 180%;
+  margin-left: 160%;
+  font-family: existencelight;
+  font-weight: bold;
+  //border: 2px solid #ff820e;
+
 
 
 }
@@ -270,25 +321,30 @@ p .Bhagaskara {
 
 }
 #iconAbUs {
-  position: absolute;
-  width: 3%;
+  //position: absolute;
+  width: 25%;
   border: 2px solid #ff820e;
-  margin-left: 45%;
-  font-size: 2%;
+  margin-left: 36%;
+  font-size: 18%;
 
-  padding: 2%;
-  height: 1%;
-  background-size: 1%;
+  padding: 10%;
+  height: 5%;
+  background-size: 10%;
   background: url("Icons/About%20Us.png") no-repeat center center;
 }
 
+.devices {
+
+
+
+}
 
 // sekcja study //
 
 
 .mainStudy {
   position: relative;
-  padding-bottom: 8%;
+  padding-bottom:14%;
   border: 2px solid #28ffae;
   width: 100%;
   background: url("images/foto2fiolet_02.jpg") no-repeat center center ;
@@ -301,13 +357,28 @@ p .Bhagaskara {
 
 #iconStudy {
   //position: absolute;
-  width: 15%;
+  width: 20%;
   border: 2px solid #ff820e;
-  margin-left: 5%;
+  margin-left: 18%;
+  margin-top: 59%;
+  margin-bottom: 38%;
 
-  padding: 45%;
-  height: 15%;
-  background-size: 10%;
-  background: url("Icons/About%20Us.png") no-repeat center center;
+  padding: 20%;
+  height: 5%;
+  background-size: 20%;
+  background: url("Icons/Icon%20%20Study.png") no-repeat center center;
 }
 
+h3{
+  margin-top: 0%;
+  font-size: 148%;
+  font-family: Lato Hairline, sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.main_text2 {
+  border:2px solid #FFEB72;
+  padding-bottom: 5%;
+}
