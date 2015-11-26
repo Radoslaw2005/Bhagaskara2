@@ -435,7 +435,7 @@ a {
 
 .mainStudy {
   position: relative;
-  padding-bottom:14%;
+  padding-bottom:13%;
   border: 2px solid #28ffae;
   width: 100%;
   background: url("images/foto2fiolet_02.jpg") no-repeat center center ;
@@ -448,12 +448,11 @@ a {
   //position: absolute;
   width: 20%;
   border: 2px solid #ff820e;
-  margin-left: 18%;
-  margin-top: 59%;
-  margin-bottom: 38%;
-
+  margin-left: 25%;
+  margin-top: 15%;
+  //margin-bottom: 0%;
   padding: 20%;
-  height: 5%;
+  height: 8%;
   background-size: 20%;
   background: url("Icons/Icon%20%20Study.png") no-repeat center center;
 }
@@ -468,6 +467,63 @@ h3{
 
 
 .main_text2 {
-  border:2px solid #FFEB72;
-  padding-bottom: 5%;
+  border: 2px solid #FFEB72;
+  /* padding-bottom: 5%; */
+  padding-top: 8%;
+  margin-right: 2%;
 }
+.study {
+  font-size: 390%;
+  font-family: Lato Hairline, sans-serif;
+}
+
+//  sekcja ourTeam  //
+
+.ourTeam {
+  background: url("images/foto2.jpg") no-repeat center center ;
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background-color: #FFFFFF;
+  background-size: cover;
+  text-align: center;
+
+
+}
+.ourSkills {
+  background: url("images/foto2.jpg") no-repeat center center ;
+  position: relative;
+  padding-bottom: 10%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background-color: #FFFFFF;
+  background-size: cover;
+  text-align: center;
+
+}
+
+.mainOurServices {
+  position: relative;
+  padding-bottom:13%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background: url("images/foto2fiolet_02.jpg") no-repeat center center ;
+  background-size: cover;
+  text-align: center;
+
+
+}
+#iconServiceswname {
+  //position: absolute;
+  width: 20%;
+  border: 2px solid #ff820e;
+  margin-left: 25%;
+  margin-top: 15%;
+  //margin-bottom: 0%;
+  padding: 20%;
+  height: 8%;
+  background-size: 20%;
+  background: url("Icons/Icon%20Serviceswname.png") no-repeat center center;
+}
+
