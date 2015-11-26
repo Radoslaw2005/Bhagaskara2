@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 @font-face {
   font-family: 'existencelight';
   src: url("fonts/existence-light-webfont.eot");
@@ -96,7 +148,7 @@
   content: "";
 }
 
-[class*='col-2'] {
+[class*='col-'] {
   float: left;
   border: 1px solid red;
   height: 100%;
@@ -219,24 +271,16 @@ span {
   float: right;
   border: 1px solid black;
   padding-bottom: 2%;
-  padding-right: 30%;
+  margin-right: 5%;
   padding-top: 1%;
   font-size: 128%;
   font-weight: bold;
-  font-family: existencelight;
-  color: #676767;
-}
-
-p {
-  float: left;
-  margin-right: 5%;
-  margin-left: 5%;
+  font-family: 'existencelight',sans-serif;
   color: #676767;
 }
 
 ul li {
   display: inline-block;
-  margin-left: 0%;
   color: #f9f9f9;
 }
 
@@ -275,10 +319,10 @@ a {
 }
 
 .Bhagaskara {
+  float: left;
   color: #676767;
-  font-size: 180%;
-  margin-left: 160%;
-  font-family: existencelight;
+  font-size: 160%;
+  font-family: 'existencelight',sans-serif;
   font-weight: bold;
 }
 
@@ -286,6 +330,46 @@ a {
   color: #9f449b;
   letter-spacing: 1px;
   font-size: 95%;
+}
+
+.rowlove {
+  display: inline-block;
+}
+
+#heart {
+  width: 100%;
+  position: relative;
+  border: 2px solid #ff98d9;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+}
+
+#clean {
+  float: right;
+  width: 100%;
+  border: 2px solid blue;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+}
+
+#easy {
+  float: right;
+  width: 100%;
+  border: 2px solid #ff98d9;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+}
+
+#fully {
+  float: right;
+  width: 100%;
+  border: 2px solid #099193;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
 }
 
 .iconsLove {
@@ -298,6 +382,21 @@ a {
   text-align: center;
 }
 
+.buildwlove {
+  font-size: 140%;
+  font-family: 'existencelight',sans-serif;
+  color: #676767;
+  font-weight: bold;
+  padding-bottom: 17%;
+}
+
+.love {
+  font-family: 'existencelight',sans-serif;
+  color: #676767;
+  padding-bottom: 5%;
+  font-size: 75%;
+}
+
 .aboutUs {
   position: relative;
   padding-bottom: 10%;
@@ -308,15 +407,45 @@ a {
   text-align: center;
 }
 
-#iconAbUs {
-  width: 25%;
+.iconAbUs {
+  width: 23%;
   border: 2px solid #ff820e;
-  margin-left: 36%;
-  font-size: 18%;
-  padding: 10%;
+  margin-left: 26%;
+  /* font-size: 15%; */
+  padding: 7%;
   height: 5%;
-  background-size: 10%;
-  background: url("Icons/About%20Us.png") no-repeat center center;
+}
+
+.icondevices {
+  margin-left: -8%;
+  padding: 7%;
+  width: 100%;
+  border: 2px solid #099193;
+  height: 100%;
+}
+
+.devices {
+  background-size: 80% auto;
+  max-width: 107%;
+}
+
+.aliquam {
+  padding-top: 16%;
+  font-family: 'existencelight',sans-serif;
+  font-size: 101%;
+}
+
+.learnM {
+  border: 3px solid sandybrown;
+  font-family: 'existencelight',sans-serif;
+  padding-top: 43%;
+  padding-right: 70%;
+}
+
+.buttonLearnMore {
+  text-transform: none;
+  border: 3px solid #ac8ef4;
+  font-size: 120%;
 }
 
 .mainStudy {
@@ -342,7 +471,6 @@ a {
 }
 
 h3 {
-  margin-top: 0%;
   font-size: 148%;
   font-family: Lato Hairline, sans-serif;
   color: white;

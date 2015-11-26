@@ -1,4 +1,4 @@
-//@import 'reset';
+@import 'reset';
 @import 'fonts';
 //@import 'variables';
 //@import 'mixins';
@@ -52,7 +52,7 @@ $new_width: 8.3333%;
   clear: both;
   content: "";
 }
-[class*='col-2']{
+[class*='col-']{
   float: left;
   border:1px solid red;
   height:100%;
@@ -210,9 +210,6 @@ span {
   padding-bottom: 3%;
   background: #f9f9f9;
   //font-family: existencelight;
-
-
-
 }
 //
 
@@ -220,25 +217,26 @@ span {
   float: right;
   border: 1px solid black;
   padding-bottom: 2%;
-  padding-right: 30%;
+  //padding-right: 0%;
+  margin-right: 5%;
   padding-top: 1%;
   font-size: 128%;
   font-weight: bold;
-  font-family: existencelight;
+  font-family: 'existencelight',sans-serif;
   color:#676767;
 }
- p {
-    float: left;
-    margin-right: 5%;
-    margin-left: 5%;
-    //font-size: 45%;
-    //padding: 0%;
-    color: #676767;
-
-}
+// p {
+//    float: left;
+//    margin-right: 5%;
+//    margin-left: 5%;
+//    //font-size: 45%;
+//    //padding: 0%;
+//    color: #676767;
+//
+//}
 ul li {
   display: inline-block;
-  margin-left: 0%;
+  //margin-left: 0%;
   color: #f9f9f9;
 }
 a {
@@ -269,32 +267,73 @@ a {
   color: #676767;
 }
 
-
-
-
-
-
 .Bhagaskara {
+  float: left;
   color: #676767;
-  font-size: 180%;
-  margin-left: 160%;
-  font-family: existencelight;
-  font-weight: bold;
+  font-size: 160%;
+  //margin-left: 160%;
+  font-family: 'existencelight',sans-serif;
+  font-weight:bold;
   //border: 2px solid #ff820e;
-
-
-
 }
 .underheaderkara span {
   color: #9f449b;
   letter-spacing: 1px;
   font-size: 95%;
-
-
 }
 
-// czêœc z ikonami  pod Menu , z ikonami build with love //
 
+
+// czêœc z ikonami  pod Menu , z ikonami build with love //
+.iconsLove{
+  //position: relative;
+
+}
+.rowlove {
+  display: inline-block;
+
+}
+#heart {
+  width: 100%;
+  position: relative;
+  border: 2px solid #ff98d9;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+
+}
+#clean {
+  //position: absolute;
+  float: right;
+  //margin-top: -2%;
+  width: 100%;
+  border: 2px solid blue;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+}
+#easy {
+  //position: relative;
+  float: right;
+  //margin-top: -2%;
+  width: 100%;
+  border: 2px solid #ff98d9;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+
+}
+#fully{
+  //position: relative;
+  float: right;
+  //margin-top: -2%;
+  width: 100%;
+  border: 2px solid #099193;
+  padding: 20%;
+  height: 100%;
+  background-size: 100% auto;
+
+}
 .iconsLove {
   position: relative;
   padding-bottom: 10%;
@@ -305,9 +344,24 @@ a {
   text-align: center;
 
 }
+.buildwlove {
+  font-size: 140%;
+  font-family: 'existencelight',sans-serif;
+  color: #676767;
+  font-weight: bold;
+  padding-bottom: 17%;
+}
+.love{
+  font-family: 'existencelight',sans-serif;
+  color: #676767;
+  padding-bottom: 5%;
+  font-size: 75%;
+}
+
 
 //sekcja about Us //
 //sekcja about Us //
+
 
 .aboutUs {
   position: relative;
@@ -320,27 +374,56 @@ a {
 
 
 }
-#iconAbUs {
+.iconAbUs {
   //position: absolute;
-  width: 25%;
+  width: 23%;
   border: 2px solid #ff820e;
-  margin-left: 36%;
-  font-size: 18%;
-
-  padding: 10%;
-  height: 5%;
-  background-size: 10%;
-  background: url("Icons/About%20Us.png") no-repeat center center;
+  margin-left: 26%;
+  /* font-size: 15%; */
+  padding: 7%;
+  height: 5%
+  //background: url("Icons/About%20Us.png") no-repeat center center;
 }
 
+.icondevices {
+
+  //background: url("Icons/Devices.png") no-repeat center center;
+
+  margin-left: -8%;
+  padding: 7%;
+  //height: 5%
+  //margin-top: -2%;
+  width: 100%;
+  border: 2px solid #099193;
+
+  height: 100%;
+  //background-size: 100% auto;
+}
 .devices {
-
+  background-size: 80% auto;
+  max-width: 107%;
 
 
 }
-
+.aliquam {
+  padding-top: 16%;
+  font-family: 'existencelight',sans-serif;
+  font-size: 101%
+}
+.learnM {
+  border: 3px solid sandybrown;
+  font-family: 'existencelight',sans-serif;
+  //border-top: 15%;
+  padding-top: 43%;
+  padding-right: 70%
+}
 // sekcja study //
 
+.buttonLearnMore{
+  text-transform: none;
+  border: 3px solid #ac8ef4;
+  font-size: 120%
+}
 
 .mainStudy {
   position: relative;
@@ -368,7 +451,7 @@ a {
 }
 
 h3{
-  margin-top: 0%;
+  //margin-top: 0%;
   font-size: 148%;
   font-family: Lato Hairline, sans-serif;
   color: rgb(255, 255, 255);
