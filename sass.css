@@ -82,6 +82,7 @@ table {
   border: 2px solid #28ffae;
   width: 100%;
   background: url("images/foto1.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
@@ -265,6 +266,7 @@ span {
   padding-top: 3%;
   padding-bottom: 3%;
   background: #f9f9f9;
+  background-attachment: fixed;
 }
 
 .homemenu {
@@ -378,6 +380,7 @@ a {
   border: 2px solid #28ffae;
   width: 100%;
   background: url("images/foto2.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
@@ -405,6 +408,7 @@ a {
   background-color: #FFFFFF;
   background-size: cover;
   text-align: center;
+  background-attachment: fixed;
 }
 
 .iconAbUs {
@@ -427,6 +431,7 @@ a {
 .devices {
   background-size: 80% auto;
   max-width: 107%;
+  padding-top: 14%;
 }
 
 .aliquam {
@@ -443,6 +448,7 @@ a {
   font-family: 'existencelight',sans-serif;
   padding-top: 43%;
   padding-right: 60%;
+  margin-bottom: 4%;
 }
 
 .buttonLearnMore {
@@ -461,6 +467,7 @@ a {
   border: 2px solid #28ffae;
   width: 100%;
   background: url("images/foto2fiolet_02.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
@@ -495,18 +502,32 @@ h3 {
 }
 
 .ourTeam {
-  background: url("images/foto2.jpg") no-repeat center center;
+  background: url("images/foto2white.png") no-repeat center center;
+  background-attachment: fixed;
   position: relative;
   padding-bottom: 10%;
   border: 2px solid #28ffae;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-size: cover;
   text-align: center;
 }
 
+#teamFot1 {
+  border-radius: 100%;
+}
+
+#teamFot2 {
+  border-radius: 100%;
+}
+
+#teamFot3 {
+  border-radius: 100%;
+}
+
 .ourSkills {
-  background: url("images/foto2.jpg") no-repeat center center;
+  background: url("images/foto2white.png") no-repeat center center;
+  background-attachment: fixed;
   position: relative;
   padding-bottom: 10%;
   border: 2px solid #28ffae;
