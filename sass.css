@@ -648,6 +648,8 @@ a, a:hover {
   font-family: Lato Hairline, sans-serif;
   color: #000000;
   font-weight: 700;
+  margin-top: 28%;
+  text-align: left;
 }
 
 .result {
@@ -655,6 +657,7 @@ a, a:hover {
   color: #777777;
   font-weight: 400;
   font-size: 150%;
+  margin-top: 28%;
 }
 
 .graph1 {
@@ -669,7 +672,7 @@ a, a:hover {
 .graph2 {
   float: right;
   height: 30%;
-  width: 1%;
+  width: 10%;
   background-color: #f0f0f0;
   padding: 2%;
 }
@@ -677,7 +680,7 @@ a, a:hover {
 .graph3 {
   float: left;
   height: 30%;
-  width: 50%;
+  width: 70%;
   background-color: #9f449b;
   /* padding-left: 50%; */
   padding: 2%;
@@ -686,7 +689,41 @@ a, a:hover {
 .graph4 {
   float: right;
   height: 30%;
-  width: 50%;
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 2%;
+}
+
+.graph5 {
+  float: left;
+  height: 30%;
+  width: 75%;
+  background-color: #9f449b;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+
+.graph6 {
+  float: right;
+  height: 30%;
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 2%;
+}
+
+.graph7 {
+  float: left;
+  height: 30%;
+  width: 70%;
+  background-color: #9f449b;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+
+.graph8 {
+  float: right;
+  height: 30%;
+  width: 30%;
   background-color: #f0f0f0;
   padding: 2%;
 }
