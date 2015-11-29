@@ -526,10 +526,109 @@ h3 {
 }
 
 .teamName {
+  padding-top: 10%;
   font-size: 110%;
   text-transform: uppercase;
   font-family: Lato Hairline, sans-serif;
   font-weight: 700;
+  color: #777777;
+}
+
+.director {
+  font-size: 60%;
+  font-family: Lato Hairline, sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+
+/* minimal sm icons
+a, a:hover {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+  list-style: none outside none;
+  display: inline-block;
+}
+
+.socialbtns .fa {
+  color: #FFF;
+  text-shadow: 1px 1px 0px #000,
+  1px -1px 0px #000,
+  -1px 1px 0px #000,
+  -1px -1px 0px #000;
+  -webkit-text-shadow: 1px 1px 0px #000,
+  1px -1px 0px #000,
+  -1px 1px 0px #000,
+  -1px -1px 0px #000;
+  -moz-text-shadow: 1px 1px 0px #000,
+  1px -1px 0px #000,
+  -1px 1px 0px #000,
+  -1px -1px 0px #000;
+  -o-text-shadow: 1px 1px 0px #000,
+  1px -1px 0px #000,
+  -1px 1px 0px #000,
+  -1px -1px 0px #000;
+  transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+  color: #000;
+  text-shadow: 1px 1px 0px #fff,
+  1px -1px 0px #fff,
+  -1px 1px 0px #fff,
+  -1px -1px 0px #fff;
+  -webkit-text-shadow: 1px 1px 0px #fff,
+  1px -1px 0px #fff,
+  -1px 1px 0px #fff,
+  -1px -1px 0px #fff;
+  -moz-text-shadow: 1px 1px 0px #fff,
+  1px -1px 0px #fff,
+  -1px 1px 0px #fff,
+  -1px -1px 0px #fff;
+  -o-text-shadow: 1px 1px 0px #fff,
+  1px -1px 0px #fff,
+  -1px 1px 0px #fff,
+  -1px -1px 0px #fff;
+  transition: all ease 0.5s;
+  -moz-transition: all ease-in 0.5s;
+  -webkit-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
+}*/
+.teamSocMed {
+  width: 30%;
+  padding-bottom: 29%;
+  height: 18px;
+  /* margin: 0 auto; */
+  padding-left: -4%;
+  margin-left: 55%;
+}
+
+.teamSocMed img {
+  width: 135%;
+}
+
+.teamSocMed1 {
+  width: 30%;
+  padding-bottom: 29%;
+  height: 18px;
+  /* margin: 0 auto; */
+  padding-left: -4%;
+}
+
+.teamSocMed1 img {
+  width: 135%;
+  margin-left: 20%;
 }
 
 .ourSkills {
