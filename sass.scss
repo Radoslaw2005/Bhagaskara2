@@ -617,6 +617,7 @@ a, a:hover {
 .teamSocMed1 img {
   width:135%;
   margin-left: 20%;
+
 }
 
 .ourSkills {
@@ -630,6 +631,56 @@ a, a:hover {
   background-size: cover;
   text-align: center;
 
+}
+
+.webDesign {
+  text-transform: uppercase;
+  font-family: Lato Hairline, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  //color: #777777;
+
+}
+.result {
+  font-family: Lato Hairline, sans-serif;
+  color: #777777;
+  font-weight: 400;
+  font-size: 150%;
+
+}
+.graph1{
+  float: left;
+  height: 30%;
+  width: 90%;
+  background-color: #9f449b;
+  //border: 2px solid blue;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+.graph2{
+  float: right;
+  height: 30%;
+  width: 10%;
+  background-color: #f0f0f0;
+  //border: 2px solid red;
+  padding: 2%;
+}
+.graph3{
+  float: left;
+  height: 30%;
+  width: 50%;
+  background-color: #9f449b;
+  //border: 2px solid blue;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+.graph4{
+  float: right;
+  height: 30%;
+  width: 50%;
+  background-color: #f0f0f0;
+  //border: 2px solid red;
+  padding: 2%;
 }
 
 .mainOurServices {

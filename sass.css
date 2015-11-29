@@ -643,6 +643,54 @@ a, a:hover {
   text-align: center;
 }
 
+.webDesign {
+  text-transform: uppercase;
+  font-family: Lato Hairline, sans-serif;
+  color: #000000;
+  font-weight: 700;
+}
+
+.result {
+  font-family: Lato Hairline, sans-serif;
+  color: #777777;
+  font-weight: 400;
+  font-size: 150%;
+}
+
+.graph1 {
+  float: left;
+  height: 30%;
+  width: 90%;
+  background-color: #9f449b;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+
+.graph2 {
+  float: right;
+  height: 30%;
+  width: 1%;
+  background-color: #f0f0f0;
+  padding: 2%;
+}
+
+.graph3 {
+  float: left;
+  height: 30%;
+  width: 50%;
+  background-color: #9f449b;
+  /* padding-left: 50%; */
+  padding: 2%;
+}
+
+.graph4 {
+  float: right;
+  height: 30%;
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 2%;
+}
+
 .mainOurServices {
   position: relative;
   padding-bottom: 13%;
