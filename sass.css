@@ -525,6 +525,14 @@ h3 {
   border-radius: 100%;
 }
 
+#teamFot4 {
+  border-radius: 100%;
+}
+
+#teamFot5 {
+  border-radius: 100%;
+}
+
 .teamName {
   padding-top: 10%;
   font-size: 110%;
@@ -726,6 +734,34 @@ a, a:hover {
   width: 30%;
   background-color: #f0f0f0;
   padding: 2%;
+}
+
+.value {
+  font-family: Lato Hairline, sans-serif;
+  color: #000000;
+  font-weight: 500;
+  font-size: 190%;
+}
+
+.Loremtext {
+  font-family: Lato Hairline, sans-serif;
+  color: #777777;
+  font-weight: 200;
+  font-size: 90%;
+  margin-top: 7%;
+}
+
+.text1 {
+  font-family: Helvetica, sans-serif;
+  color: #4b4b4b;
+}
+
+.ownertext1 {
+  font-family: Helvetica, sans-serif;
+  color: #777777;
+  padding-top: 3%;
+  font-size: 90%;
+  font-weight: 600;
 }
 
 .mainOurServices {
