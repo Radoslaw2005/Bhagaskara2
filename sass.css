@@ -843,4 +843,29 @@ a, a:hover {
   padding-bottom: 5%;
 }
 
+.Portfoliofot {
+  max-width: 360px;
+  max-height: 360px;
+  padding-bottom: 14%;
+  padding-left: 3%;
+  padding-right: 23%;
+}
+
+.portfoName {
+  font-family: 'existencelight', sans-serif;
+  font-size: 110%;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+
+p.apps {
+  color: #777777;
+  font-size: 100%;
+}
+
+.portfolioName {
+  margin: -2%;
+}
+
 /*# sourceMappingURL=sass.css.map */
