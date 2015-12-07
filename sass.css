@@ -898,13 +898,36 @@ p.apps {
 }
 
 .container2 {
-  margin-right: 0%;
   margin-bottom: 12%;
+  border: 1px solid #777777;
+  padding-bottom: 5%;
 }
 
 #YourMessag {
-  border: 1px solid #777777;
-  padding-bottom: 30%;
+  padding-bottom: 31%;
+  margin-left: 6%;
+  margin-top: 18%;
+}
+
+.comma {
+  padding-left: 95%;
+  margin-bottom: -5%;
+  text-align: right;
+  font-size: 102%;
+  font-weight: 500;
+}
+
+.buttonSend {
+  text-transform: none;
+  font-size: 96%;
+  padding: 3%;
+  background-color: #9f449b;
+  color: #ffffff;
+  border-radius: 6%;
+  box-shadow: 0px 3px 0px #6b2e68;
+  margin-right: 80%;
+  font-family: 'existencelight', sans-serif;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=sass.css.map */
