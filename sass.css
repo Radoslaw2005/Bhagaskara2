@@ -919,8 +919,10 @@ p.apps {
 
 .buttonSend {
   text-transform: none;
-  font-size: 96%;
-  padding: 3%;
+  font-size: 80%;
+  padding: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
   background-color: #9f449b;
   color: #ffffff;
   border-radius: 6%;
@@ -928,6 +930,43 @@ p.apps {
   margin-right: 80%;
   font-family: 'existencelight', sans-serif;
   font-weight: 500;
+}
+
+.Bhagaskara2 {
+  text-align: center;
+  color: #676767;
+  font-size: 225%;
+  font-family: 'existencelight',sans-serif;
+  font-weight: bold;
+}
+
+#LoremIp {
+  color: #676767;
+  font-family: Helvetica, sans-serif;
+  padding-left: 5%;
+  font-size: 114%;
+}
+
+.Loremipsum {
+  border: 1px solid #28ffae;
+  min-height: 95px;
+}
+
+#adres {
+  font-weight: 700;
+  padding-top: 16%;
+  padding-left: 5%;
+  font-size: 135%;
+  font-family: Helvetica, sans-serif;
+}
+
+#tel {
+  font-weight: 700;
+  padding-top: 12%;
+  padding-left: 5%;
+  float: left;
+  font-size: 135%;
+  font-family: Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=sass.css.map */
